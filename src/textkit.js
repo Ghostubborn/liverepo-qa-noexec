@@ -18,7 +18,7 @@ export function wordCount(input) {
 
 /** Upper-case the first character. */
 export function capitalize(input) {
-  return input[0].toUpperCase() + input.slice(1);
+  return input.charAt(0).toUpperCase() + input.slice(1);
 }
 
 const UNIT_MS = { ms: 1, s: 1000, m: 60_000, h: 3_600_000 };
